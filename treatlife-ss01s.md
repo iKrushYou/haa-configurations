@@ -1,6 +1,8 @@
-LED: GPIO 4
-Switch: GPIO 13
-Relay: GPIO 12
+| Component | GPIO |
+| --- | --- |
+| LED | GPIO 4 |
+|Switch | GPIO 13 |
+|Relay | GPIO 12 |
 
 ```json
 {
