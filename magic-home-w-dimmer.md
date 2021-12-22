@@ -1,4 +1,6 @@
-W: GPIO 12
+| Component | GPIO |
+| --- | --- |
+| W | GPIO 12 |
 
 ```json
 {
