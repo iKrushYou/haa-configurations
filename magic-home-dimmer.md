@@ -75,8 +75,8 @@ https://github.com/RavenSystem/esp-homekit-devices/wiki/Lightbulb
 | Component | GPIO |
 | --- | --- |
 | R | GPIO 15 |
-| G | GPIO 13 |
-| B | GPIO 12 |
+| G | GPIO 12 |
+| B | GPIO 13 |
 | W | GPIO 14 |
 
 ```json
@@ -97,12 +97,12 @@ https://github.com/RavenSystem/esp-homekit-devices/wiki/Lightbulb
           "g": 0
         }
       ],
-      "g": [5, 12, 13, 14]
+      "g": [15, 13, 12, 14]
     }
   ]
 }
 ```
 
 ```json
-{"c":{"b":[{"g":0,"t":5}]},"a":[{"t":30,"b":[{"g":0}],"g":[5,12,13,14]}]}
+{"c":{"b":[{"g":0,"t":5}]},"a":[{"t":30,"b":[{"g":0}],"g":[15,13,12,14]}]}
 ```
